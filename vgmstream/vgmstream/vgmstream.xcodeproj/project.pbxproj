@@ -1482,6 +1482,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZV46EUY73C;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../node-lame-master/deps/mpg123/ports/Xcode",
+					"$(SRCROOT)/../../libopenmpt/openmpt-trunk/include/vorbis/include",
+					"../../node-lame-master/deps/mpg123/ports/Xcode",
+					"$(SRCROOT)/../../libopenmpt/openmpt-trunk/include/ogg/include",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1492,6 +1498,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZV46EUY73C;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../node-lame-master/deps/mpg123/ports/Xcode",
+					"$(SRCROOT)/../../libopenmpt/openmpt-trunk/include/vorbis/include",
+					"../../node-lame-master/deps/mpg123/ports/Xcode",
+					"$(SRCROOT)/../../libopenmpt/openmpt-trunk/include/ogg/include",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
